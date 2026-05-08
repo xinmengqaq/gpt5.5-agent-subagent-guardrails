@@ -1,4 +1,0 @@
-interface:
-  display_name: "GPT-5.5 提示词编排"
-  short_description: "编写 GPT-5.5 结果优先提示词和带身份背景的子代理交接。"
-  default_prompt: "使用 $gpt55-prompt-orchestration 把任务改写成中文 GPT-5.5 结果优先 Codex 提示词和 GPT-5.x 子代理交接提示词。每个子代理提示词都要写明匹配任务领域的身份背景，例如前端专家或后端专家。不要使用旧块名，例如 运行时：codex。"
