@@ -88,6 +88,18 @@ GitHub 原技能地址：
 - 仓库首页：[openai/skills](https://github.com/openai/skills)
 - 技能目录：[skills/.curated/playwright](https://github.com/openai/skills/tree/main/skills/.curated/playwright)
 
+### 4. `graphify`
+
+适用场景：
+
+- 当主代理或子代理需要低成本获取项目上下文、模块关系、代码路径、文档关系或知识图谱索引时使用。
+- `graphify` 用来把代码、文档、PDF、图片、视频等项目材料生成可查询的上下文知识图谱，常见产物包括 `graphify-out/GRAPH_REPORT.md`、`graph.json` 和 `graph.html`。
+- 在本技能里，Graphify 只作为“上下文知识图谱”和“项目关系索引”使用，不作为产品行为、提示词模板、技能路由或并行上限的真源。
+
+GitHub 原工具地址：
+
+- 仓库首页：[safishamsi/graphify](https://github.com/safishamsi/graphify)
+
 ## 使用特点
 
 - 默认使用中文组织主代理约束和子代理交接。
